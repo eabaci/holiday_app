@@ -10,7 +10,7 @@ const app = express();
 const router = express.Router();
 
 // MongoDB-Datenbank
-const dbRoute = 'mongodb://localhost:27017/gallery';
+const dbRoute = 'mongodb://localhost:27017/holidayapi';
 
 // verbindet unseren Backend-Code mit der Datenbank
 mongoose.connect(dbRoute, { useNewUrlParser: true });
